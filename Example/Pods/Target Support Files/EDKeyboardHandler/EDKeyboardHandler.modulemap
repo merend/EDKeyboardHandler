@@ -1,0 +1,6 @@
+framework module EDKeyboardHandler {
+  umbrella header "EDKeyboardHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}

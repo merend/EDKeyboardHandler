@@ -1,0 +1,24 @@
+{
+  "name": "EDKeyboardHandler",
+  "version": "0.1.0",
+  "summary": "A short description of EDKeyboardHandler.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/EDKeyboardHandler",
+  "license": "MIT",
+  "authors": {
+    "Eren Demirbuken": "erendemirbuken@peakgames.net"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/EDKeyboardHandler.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EDKeyboardHandler/Classes/**/*",
+  "resource_bundles": {
+    "EDKeyboardHandler": [
+      "EDKeyboardHandler/Assets/*.png"
+    ]
+  }
+}

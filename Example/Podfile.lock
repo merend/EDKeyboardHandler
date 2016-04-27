@@ -1,0 +1,14 @@
+PODS:
+  - EDKeyboardHandler (0.1.0)
+
+DEPENDENCIES:
+  - EDKeyboardHandler (from `../`)
+
+EXTERNAL SOURCES:
+  EDKeyboardHandler:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EDKeyboardHandler: 7adc657e13f14388dde3bb0109b6626e85e78b8f
+
+COCOAPODS: 0.39.0
