@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EDKeyboardHandler_Example', :exclusive => true do
+  pod 'EDKeyboardHandler', :path => '../'
+end
+
+target 'EDKeyboardHandler_Tests', :exclusive => true do
+  pod 'EDKeyboardHandler', :path => '../'
+
+  
+end
