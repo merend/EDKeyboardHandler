@@ -18,7 +18,7 @@ typedef enum : NSUInteger {
 @interface KeyboardInfo:NSObject
 
 @property (nonatomic,readonly) NSTimeInterval animationDuration;
-@property (nonatomic,readonly) CGRect    keyboardFrame;
+@property (nonatomic,readonly) CGRect keyboardFrame;
 @property (nonatomic,readonly) NSInteger animationCurve;
 @property (nonatomic,readonly) KeyboardStatus status;
 
