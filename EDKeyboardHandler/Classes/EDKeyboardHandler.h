@@ -1,6 +1,5 @@
 //
 //  UIView+Keyboard.h
-//  ChatViewApp
 //
 //  Created by Eren Demirbüken on 25/12/15.
 //  Copyright © 2015 Eren Demirbüken. All rights reserved.
@@ -18,8 +17,8 @@ typedef enum : NSUInteger {
 @interface KeyboardInfo:NSObject
 
 @property (nonatomic,readonly) NSTimeInterval animationDuration;
-@property (nonatomic,readonly) CGRect keyboardFrame;
-@property (nonatomic,readonly) NSInteger animationCurve;
+@property (nonatomic,readonly) CGRect    keyboardFrame;
+@property (nonatomic,readonly) UIViewAnimationCurve animationCurve;
 @property (nonatomic,readonly) KeyboardStatus status;
 
 @end
