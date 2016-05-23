@@ -1,15 +1,11 @@
 //
 //  UIView+Keyboard.m
-//  ChatViewApp
 //
 //  Created by Eren Demirbüken on 25/12/15.
 //  Copyright © 2015 Eren Demirbüken. All rights reserved.
 //
 
 #import "EDKeyboardHandler.h"
-
-
-
 
 @interface KeyboardInfo ()
 
@@ -57,8 +53,8 @@
 
 - (void) registerForKeyboardNotification //register for keyboard activity
 {
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardDidShowNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidShow:) name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidShow:) name:UIKeyboardDidShowNotification object:nil];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidHide:) name:UIKeyboardDidHideNotification object:nil];
@@ -107,12 +103,3 @@
 }
 
 @end
-
-
-
-
-
-
-
-
-
